@@ -1,5 +1,6 @@
 ---
 layout: page
+comments: true
 permalink: /:basename/
 ---
 <link rel="stylesheet" type="text/css" href="../css/promisepage.css">
@@ -22,13 +23,26 @@ permalink: /:basename/
 	  </ul>
     </div>
   </div><BR>
-   <div id="reddit_comments">
+
+    {% if page.comments %}
+    <div id="disqus_thread"></div>
+    <script>
+    var disqus_config = function () {
+        this.page.identifier = "{{ page.id }}";
+    };
+
+    (function() {var d = document,s = d.createElement('script');s.src = '//ongspxm.disqus.com/embed.js';s.setAttribute('data-timestamp', +new Date());(d.head || d.body).appendChild(s);})();
+    </script>
+
+    {% endif %}
+
+   <!-- <div id="reddit_comments">
 	  <h3 class='comments'>Comments</h3>
 	  <a target="_blank" href="{{ page.comments }}" class="btn btn-primary placecomment"><i class="fa fa-pencil" aria-hidden="true"></i> Place comment</a>
 	  <p class='commentcount'></p>
 	  <div class="loader"></div>
 	  <div class="panel-group"><div class="noscript">Please enable Javascript and disable any adblocker to view comments.</div></div>
-   </div>
+   </div> -->
 </div>
 <script>var redditid = '{{ page.commentsid }}';</script>
 <script src="../js/snuownd.min.js"></script>

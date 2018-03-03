@@ -30,7 +30,7 @@ promises:
         title: 'Develop a community service hub'
         description: ''
         url: 'https://trumptracker.github.io/develop-a-community-service-hub/'
-        status: Not started
+        status: In progress
         status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
         category: Social Infrastructure
         tags:

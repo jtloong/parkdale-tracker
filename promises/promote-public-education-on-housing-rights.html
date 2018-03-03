@@ -32,13 +32,30 @@ permalink: /:basename/
 	  </ul>
     </div>
   </div><BR>
-   <div id="reddit_comments">
+    {% if page.comments %}
+    <h2 class="tc f4 pb3">Comments</h2>
+    <div id="disqus_thread" class="center measure"></div>
+    <script>
+    var disqus_config = function () {
+    this.page.url = 'https://100days.envirodatagov.org/epa-under-siege/';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = '/epa-under-siege/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://100-days.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
+   <!-- <div id="reddit_comments">
 	  <h3 class='comments'>Comments</h3>
 	  <a target="_blank" href="https://redd.it/5d7sm2" class="btn btn-primary placecomment"><i class="fa fa-pencil" aria-hidden="true"></i> Place comment</a>
 	  <p class='commentcount'></p>
 	  <div class="loader"></div>
 	  <div class="panel-group"><div class="noscript">Please enable Javascript and disable any adblocker to view comments.</div></div>
-   </div>
+   </div> -->
 </div>
 <script>var redditid = '["5d7sm2"]';</script>
 <script src="../js/snuownd.min.js"></script>
