@@ -96,7 +96,7 @@ layout: compress
                     </button>
 
                     <a class="navbar-brand" href="{{ site.url }}">
-                        <b>Digital Parkdale People's Assembly</b>
+                        <b>{{ site.title }}</b>
                     </a>
 
                 </div>
@@ -119,26 +119,14 @@ layout: compress
 
         {{content}}
 
-        <div class="container-fluid">
-            <div class="page-header">
-                <h5 class="text-right">Open Source at <a href="https://github.com/TrumpTracker/trumptracker.github.io"> <i class="fa fa-github fa-fw"></i></a></h5>
-            </div>
-        </div>
         <footer class="footer">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-6">
                         <p class="text-muted">Maintained by <a href="https://parkdalecommunityeconomies.wordpress.com/" target="_blank">Parkdale People's Economy</a></p>
                     </div>
-                    <div class="col-md-3">
-                        <p class="text-muted">Inspired By <a href="https://trudeaumetre.polimeter.org/" target="_blank" rel="nofollow">TrudeauMetre</a></p>
-                    </div>
-                    <div class="col-md-3">
-                        <p class="text-muted"><a href="https://raw.githubusercontent.com/TrumpTracker/trumptracker.github.io/master/_data/data.yaml" target="_blank" rel="nofollow">Open Data</a></p>
-
-                    </div>
-                    <div class="col-md-3">
-                        <p class="text-muted"><a href="https://web.archive.org/web/20170210165830/http://nukewebbed.com/#section-termsandconditions" target="_blank">Privacy Policy and T&amp;C</a></p>
+                    <div class="col-md-6">
+                      <h5 class="text-right">Open Source at <a href="{{ site.github }}"> <i class="fa fa-github fa-fw"></i></a></h5>
                     </div>
                 </div>
             </div>
