@@ -29,7 +29,7 @@ promises:
     -
         title: 'Develop a community service hub'
         description: 'This would be a site for co-location and service integration.'
-        url: 'https://nostalgic-hodgkin-d436c4.netlify.com/develop-a-community-service-hub/'
+        url: '/develop-a-community-service-hub/'
         status: Not started
         status_info: 'This option has been recommended to city hall.'
         category: Social Infrastructure
@@ -42,7 +42,7 @@ promises:
     -
         title: 'Promote public education on housing rights'
         description: ''
-        url: 'https://nostalgic-hodgkin-d436c4.netlify.com/promote-public-education-on-housing-rights/'
+        url: '/promote-public-education-on-housing-rights/'
         status: Not started
         status_info: 'This option has been recommended to city hall.'
         category: Housing
