@@ -28,37 +28,28 @@ statuses:
 promises:
     -
         title: 'Develop a community service hub'
-        description: ''
-        url: 'https://trumptracker.github.io/develop-a-community-service-hub/'
-        status: In progress
-        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
+        description: 'This would be a site for co-location and service integration.'
+        url: '//develop-a-community-service-hub/'
+        status: Not started
+        status_info: 'This option has been recommended to city hall.'
         category: Social Infrastructure
         tags:
             - ''
         comments:
             - 'https://redd.it/5d4r8m'
         sources:
-            - 'https://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
-            - 'https://youtu.be/4t1xR9U6IAU?t=44s'
-            - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
+            - 'https://parkdalecommunityeconomies.wordpress.com/resources/parkdale-planning-study-summary-2016/'
     -
         title: 'Promote public education on housing rights'
-        description: 'Institute a hiring freeze on all federal employees to reduce federal workforce through attrition (exempting military, public safety, and public health)'
-        url: 'https://trumptracker.github.io/promote-public-education-on-housing-rights/'
+        description: ''
+        url: '//promote-public-education-on-housing-rights/'
         status: Not started
-        status_info: 'This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.'
+        status_info: 'This option has been recommended to city hall.'
         category: Housing
         tags:
-            - 'Contract with the American Voter - 100 Day Plan'
+            - ''
         comments:
             - 'https://redd.it/5d7sm2'
         sources:
-            - 'https://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'
-            - 'https://youtu.be/4t1xR9U6IAU?t=56s'
-            - 'https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'
-            - 'https://web.archive.org/web/20170210171446/https://www.whitehouse.gov/the-press-office/2017/01/23/presidential-memorandum-regarding-hiring-freeze'
-            - 'https://web.archive.org/web/20170210171255/https://www.washingtonpost.com/news/powerpost/wp/2017/01/23/trump-freezes-federal-hiring/'
-            - 'https://web.archive.org/web/20170210172148/http://thehill.com/homenews/administration/315661-trump-imposes-freeze-on-federal-hiring'
-            - 'https://web.archive.org/web/20170210173704/http://www.attn.com/stories/14456/truth-about-trumps-hiring-freeze'
-            - 'https://www.scribd.com/document/344966998/OMB-Memo-on-Reforming-the-Federal-Government-and-Reducing-the-Federal-Civilian-Workforce'
-            - 'https://web.archive.org/web/20170412080116/http://www.npr.org/2017/04/12/523473051/trump-lifting-federal-hiring-freeze'
+            - 'https://parkdalecommunityeconomies.wordpress.com/resources/parkdale-planning-study-summary-2016/'
+            - 'http://www.pnlt.ca/wp-content/uploads/2017/05/Parkdale-Rooming-House-Study_Executive-Summary_V1.pdf'

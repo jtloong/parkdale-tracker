@@ -1,5 +1,6 @@
 ---
 layout: page
+comments: true
 permalink: /:basename/
 ---
 <link rel="stylesheet" type="text/css" href="../css/promisepage.css">
@@ -8,41 +9,35 @@ permalink: /:basename/
     <div class="col-md-12">
       <h2>Develop a community service hub</h2>
 	  <a class='btn facebook' target="_blank" href="https://www.facebook.com/sharer.php?u=https://trumptracker.github.io/develop-a-community-service-hub/&title=Develop+a+community+service+hub"> <i class="fa fa-facebook-square fa-fw" aria-hidden="true"></i> Share</a>
-      <a class="btn twitter" href="https://twitter.com/share?url=https://trumptracker.github.io/&text=%40realDonaldTrump+is+progressing+promise+no.+0%3A+Develop+a+community+service+hub&hashtags=TrumpTracker" target="_blank"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i> Tweet</a>
+      <a class="btn twitter" href="https://twitter.com/share?url=https://trumptracker.github.io/&text=%40realDonaldTrump+hasn%27t+started+promise+no.+0%3A+Develop+a+community+service+hub&hashtags=TrumpTracker" target="_blank"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i> Tweet</a>
     </div>
     <div class="col-md-12">
 	  <h3>Category: Social Infrastructure</h3>
-      <h3>Status: <span style='color: #8a6d3b;'>In progress</span></h3>
-	  <b>This promise was marked as broken because it was not fulfilled within 100 days. It will be marked as compromised when it is executed.</b><br><br>
-	  <p></p>
+      <h3>Status: <span style='color: #31708f;'>Not started</span></h3>
+	  <b>This option has been recommended to city hall.</b><br><br>
+	  <p>This would be a site for co-location and service integration.</p>
     </div>
     <div class="col-md-12">
       <h3>Sources:</h3>
 	  <ul class='sources'>
-<li><a class='src' target='_blank' href='https://web.archive.org/web/20161101093508/https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1'>https://www.donaldjtrump.com/press-releases/donald-j.-trump-delivers-groundbreaking-contract-for-the-american-vote1</a></li>
-<li><a class='src' target='_blank' href='https://youtu.be/4t1xR9U6IAU?t=44s'>https://youtu.be/4t1xR9U6IAU?t=44s</a></li>
-<li><a class='src' target='_blank' href='https://web.archive.org/web/20161109222320/http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days'>http://www.npr.org/2016/11/09/501451368/here-is-what-donald-trump-wants-to-do-in-his-first-100-days</a></li>
+<li><a class='src' target='_blank' href='https://parkdalecommunityeconomies.wordpress.com/resources/parkdale-planning-study-summary-2016/'>https://parkdalecommunityeconomies.wordpress.com/resources/parkdale-planning-study-summary-2016/</a></li>
 
 	  </ul>
     </div>
   </div><BR>
+
     {% if page.comments %}
-    <h2 class="tc f4 pb3">Comments</h2>
-    <div id="disqus_thread" class="center measure"></div>
+    <div id="disqus_thread"></div>
     <script>
     var disqus_config = function () {
-    this.page.url = 'https://100days.envirodatagov.org/epa-under-siege/';  // Replace PAGE_URL with your page's canonical URL variable
-    this.page.identifier = '/epa-under-siege/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        this.page.identifier = "{{ page.id }}";
     };
-    (function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = 'https://100-days.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-    })();
+
+    (function() {var d = document,s = d.createElement('script');s.src = '//ongspxm.disqus.com/embed.js';s.setAttribute('data-timestamp', +new Date());(d.head || d.body).appendChild(s);})();
     </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}
+
+    {% endif %}
+
    <!-- <div id="reddit_comments">
 	  <h3 class='comments'>Comments</h3>
 	  <a target="_blank" href="https://redd.it/5d4r8m" class="btn btn-primary placecomment"><i class="fa fa-pencil" aria-hidden="true"></i> Place comment</a>
