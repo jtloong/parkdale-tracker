@@ -18,6 +18,20 @@ Site is now running at [localhost:4000](http://localhost:4000)
 
     rake test
 
+# Current Features
+
+* Displaying policy ideas
+* Commenting using Disqus
+* Tracking the issue category and its status of completion in the community
+* A simple Typeform to receive community improvement ideas into my email
+
+# Future Features
+
+* Voting
+* Make a tracking distinction between ideas the city takes on and what community groups do
+* Integrating a better input system for ideas
+* Rethink a way to present new ideas in the system as a physical newsletter?
+
 # Credit
 
 This is a fork of [TrumpTracker](https://trumptracker.github.io/)!
